@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-gray-500 text-white h-screen flex items-center justify-center"
+  >
+    <section
+      class="flex rounded-lg shadow-lg w-[50%] h-[90%] justify-center bg-slate-700 px-3 py-4"
+    >
+      <div class="relative w-full px-5 shadow-lg mt-10">
+        <div class="absolute right-8 object-contain">
+          <img
+            src="./images/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg"
+            class="w-[25rem]"
+            alt=""
+          />
+        </div>
+        <div class="flex absolute top-4 items-center">
+          <h1 class="cinzel-bold text-4xl tracking-tighter text-orange-800">
+            ARM
+          </h1>
+        </div>
+        <div
+          class="absolute flex flex-col justify-center items-center text-center"
+        >
+          <p class="text-lg font-semibold mt-[20rem] ml-12">
+            Capturing Moments,<br />Creating Memories
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full justify-center flex flex-col gap-5 mt-14 mb-16">
+        <h1 class="text-2xl font-bold mb-4">Create an Account</h1>
+        <div class="flex gap-2">
+          <h5>Already have an account?</h5>
+          <a href="./index.html" class="text-black hover:font-bold">Log in</a>
+        </div>
+        <div class="flex flex-col gap-5">
+          <input
+            placeholder="Name"
+            class="bg-gray-500 w-full px-4 py-1"
+            type="text"
+            required
+          />
+          <input
+            placeholder="Username"
+            class="bg-gray-500 w-full px-4 py-1"
+            type="text"
+            required
+          />
+          <input
+            placeholder="Email"
+            class="bg-gray-500 w-full px-4 py-1"
+            type="email"
+            required
+          />
+          <input
+            placeholder="Password"
+            class="bg-gray-500 w-full px-4 py-1"
+            type="password"
+            required
+          />
+          <div class="flex gap-1">
+            <input type="checkbox" />
+            <p>I agree to the terms&conditions</p>
+          </div>
+          <button
+            class="bg-black items-center px-2 py-3 rounded-lg hover:bg-slate-500"
+          >
+            Create Account
+          </button>
+          <!-- <div class="flex justify-center text-black"><p>or register with</p></div>
+          <div class="flex justify-center items-center gap-24">
+            <div class="flex items-center gap-2">
+              <i class="fa-brands fa-google" style="color: #8c0808"></i
+              ><button>Google</button>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-brands fa-apple" style="color: #f4f2eb"></i
+              ><button>Apple</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
