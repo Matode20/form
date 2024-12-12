@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
       rel="stylesheet"
     />
+    <script src="./index.js" type="module" defer></script>
   </head>
   <body
     class="bg-gray-500 text-white h-screen flex items-center justify-center"
@@ -54,26 +55,30 @@
           <h5>Already have an account?</h5>
           <a href="./index.html" class="text-black hover:font-bold">Log in</a>
         </div>
-        <div class="flex flex-col gap-5">
+        <form id="createForm" class="flex flex-col gap-5">
           <input
+            name="name"
             placeholder="Name"
             class="bg-gray-500 w-full px-4 py-1"
             type="text"
             required
           />
           <input
+            name="username"
             placeholder="Username"
             class="bg-gray-500 w-full px-4 py-1"
             type="text"
             required
           />
           <input
+            name="email"
             placeholder="Email"
             class="bg-gray-500 w-full px-4 py-1"
             type="email"
             required
           />
           <input
+            name="password"
             placeholder="Password"
             class="bg-gray-500 w-full px-4 py-1"
             type="password"
@@ -84,6 +89,7 @@
             <p>I agree to the terms&conditions</p>
           </div>
           <button
+            type="submit"
             class="bg-black items-center px-2 py-3 rounded-lg hover:bg-slate-500"
           >
             Create Account
@@ -99,7 +105,7 @@
               ><button>Apple</button>
             </div>
           </div> -->
-        </div>
+        </form>
       </div>
     </section>
   </body>
